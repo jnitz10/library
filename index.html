@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div><button id = "addButton" type="button">Add Book to Library</button>
+        <div class="bg-modal">
+            <div class="modal-content">
+                <div class="close">+</div>
+                <form>
+                    <label for="bookTitle">Title:<br></label>
+                    <input type="text" id="bookTitle" name="bookTitle"><br>
+                    <label for="bookAuthor">Author:</label><br>
+                    <input type="text" id="bookAuthor" name="bookAuthor"><br>
+                    <label for="pageCount">Page Count:</label><br>
+                    <input type="number" id="pageCount" name="pageCount"><br>
+                    <label for="read">Read?</label><br>
+                    <input type="checkbox" id="read" name="read"><br>
+                </form>
+                <div id="formButtons">
+                    <button type="button">Add Book</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="library"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
